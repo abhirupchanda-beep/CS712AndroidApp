@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Software Engineering Challenges"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="• Device fragmentation" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="• Battery optimization" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="• Performance constraints" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="• Security vulnerabilities" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="• Cross-platform compatibility" />
+
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Activity"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
